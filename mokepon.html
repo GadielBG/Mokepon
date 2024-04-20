@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mokepon!</title>
+    <script src="./js/mokepon.js"></script>
 </head>
 <body>
     <h1> MOKEPON! 🔥💦🍃</h1>
@@ -20,22 +21,19 @@
         <label for="Zuko">Zuko</label>
         <input type="radio" name="mascota" id="Zuko"/> 
         
-        
-           
-
-        <button>Seleccionar</button>
+        <button id="boton-mascota">Seleccionar</button>
     </section>
 
     <section id="seleccionar-ataque">
         <h2>Elige el ataque: </h2>
         
-        <p> Tu mascota tiene <span>3</span> vidas </p>
-        <p> La mascota del enemigo tiene <span>3</span> vidas</p>
+        <p> Tu mascota <span id="mascota-jugador">ASD</span> tiene <span>3</span> vidas </p>
+        <p> La mascota <span id="mascota-enemigo"></span>del enemigo tiene <span>3</span> vidas</p>
 
         <p> 
-            <button>Fuego 🔥</button>
-            <button>Agua💦</button>
-            <button>Tierra🍃</button>
+            <button id="boton-fuego">Fuego 🔥</button>
+            <button id="boton-agua">Agua💦</button>
+            <button id="boton-tierra">Tierra🍃</button>
         </p>
 
     </section>
@@ -45,7 +43,7 @@
     </section>
 
     <section id="reiniciar"> 
-        <button>Reiniciar</button>
+        <button id="boton-reiniciar">Reiniciar</button>
     </section>
 </body>
 </html>
